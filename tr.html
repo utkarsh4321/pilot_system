@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form><input type="text" name="lo" /></form>
+    <script>
+      document.querySelector("form").addEventListener("submit", e => {
+        let val = e.target.lo.value;
+        if (val !== "") {
+          e.target.lo.value = "";
+        }
+        console.log(val);
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
