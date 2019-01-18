@@ -297,6 +297,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .chart--donut,
   .chart--pie {
     max-width: 400px;
@@ -304,6 +305,7 @@
 }
 
 @media screen and (min-width: 1024px) {
+
   .chart--donut,
   .chart--pie {
     margin: 30px auto;
@@ -322,6 +324,7 @@
   .chart__header {
     margin-bottom: 70px;
   }
+
   .chart--left .chart__header,
   .chart--right .chart__header {
     margin-bottom: 40px;
@@ -476,19 +479,24 @@
     font-weight: 600;
     padding: 5px 20px 5px 0;
   }
+
   .chart__axis-y {
     width: 120px;
   }
+
   .chart__box {
     width: calc(100% - 120px);
   }
+
   .chart--horizontal .bar {
     height: 14px;
   }
+
   .chart--horizontal .bar__container {
     margin: 31.6px 0 24.5px;
     height: 14px;
   }
+
   .chart__axis-x {
     padding-left: 145px;
   }
@@ -498,6 +506,7 @@
   .chart__axis-y {
     width: 105px;
   }
+
   .chart--horizontal {
     padding-top: 10px;
   }
@@ -507,16 +516,20 @@
   .chart__axis-y {
     left: 0px;
   }
+
   .chart__label-y {
     font-size: 12px;
     padding: 5px 12px 5px 0;
   }
+
   .chart__axis-y {
     width: 95px;
   }
+
   .chart__box {
     width: calc(100% - 95px);
   }
+
   .chart__axis-x {
     padding-left: 95px;
   }
@@ -526,10 +539,12 @@
   .chart__box {
     width: calc(100% - 0px);
   }
+
   .chart__axis-y {
     left: 16px;
     top: -34px;
   }
+
   .chart__axis-x {
     padding-left: 0px;
   }
